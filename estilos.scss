@@ -1,0 +1,136 @@
+/* #F0F7EE menta     
+   #5D737E gris
+   #87BBA2 acua
+   #FFF07C amarillo
+
+*/
+$menta: #F0F7EE;
+$azul: #172A3A;
+$acua: #104F55;
+$redondo: 10px;
+
+
+body { 
+    background-color:  $menta !important;
+    
+}
+
+
+
+.navbar  { 
+    background-color:  $azul !important
+}
+
+.nav-link { 
+    color: $menta  !important;
+}
+
+.nav-link:hover { 
+    color:  #e6fae0 !important;
+    background-color: $acua;
+    border-radius: 5px;
+    opacity:1;
+}
+
+.jombotron p  { 
+    color:  $azul !important;
+    font-size: 25px;
+
+}
+
+.jombotron h1 { 
+    color:  $acua !important;
+    }
+
+
+h3 { 
+        color:  $acua !important;
+        }
+
+h5 { 
+        color:  $azul !important;
+        font-size: 18px;
+        
+        }
+
+        
+
+.img-fluid  {
+        border-radius: $redondo !important;
+    }
+@media (min-width: 500px) {
+        .img-fluid {
+            border-radius: $redondo !important;
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+.logo { 
+        font-size: 60px;
+        color: $acua;
+
+    }
+.feat { 
+    text-align: center !important; 
+
+}
+footer { 
+    background-color: $azul !important;
+    min-width:10%;
+    color: $menta;
+    text-align: center;
+
+
+}
+
+h4 { 
+    color: white;
+    text-align: center;
+    
+
+}
+.redes  { 
+    color: $menta;
+    font-size: 30px;
+    letter-spacing: $redondo;
+
+    
+
+}  
+
+span  { 
+    color: $menta;
+    font-size: 30px !important;
+    padding-left: $redondo;
+    
+} 
+.servicios  { 
+
+    transition: 0.3s;
+}
+    
+
+    .servicios:hover  { 
+        background-color:#def2f4;
+        border-radius: 15px;
+        transform: scale(1.1);
+        transition: 0.3s;
+} 
+.boton { 
+    background-color:$acua ;
+    color: $menta;
+}
+
+.boton:hover { 
+    background-color:#187179 ;
+    color: $menta
+}
+.boton2 { 
+    background-color:$azul ;
+    color: $menta;
+
+}
+.boton2:hover { 
+    background-color:#26455e ;
+    color: $menta;
+}
